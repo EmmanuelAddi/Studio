@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_attraction"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Attractions Sites" />
+        <item
+            android:id="@+id/nav_direction"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Directions" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@android:drawable/btn_radio"
+            android:title="Hotels and Restaurants" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Account" />
+    </group>
+
+    <item android:title="Explore">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@android:drawable/stat_sys_phone_call"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>
